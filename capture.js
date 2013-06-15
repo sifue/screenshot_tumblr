@@ -1,14 +1,14 @@
 (function(){
 
-    var imgScreenShot = document.createElement('img');
-    imgScreenShot.setAttribute('src', screenshotUrl); //GLOBAL
-    imgScreenShot.setAttribute('id', 'movie_screenshot');
-    document.body.appendChild(imgScreenShot);
-
-    var s = window.getSelection()
-    var r = document.createRange();
-    r.selectNode(imgScreenShot);
-    s.addRange(r);
+//    var imgScreenShot = document.createElement('img');
+//    imgScreenShot.setAttribute('src', screenshotUrl); //GLOBAL
+//    imgScreenShot.setAttribute('id', 'movie_screenshot');
+//    document.body.appendChild(imgScreenShot);
+//
+//    var s = window.getSelection()
+//    var r = document.createRange();
+//    r.selectNode(imgScreenShot);
+//    s.addRange(r);
 
 
     // bookmarklet of tumblr http://www.tumblr.com/apps
