@@ -1,7 +1,7 @@
 {
-  "name": "ニコキャプ！",
+  "name": "スクショタンブラー！",
   "version": "1.0.0",
-  "description": "ニコニコ動画、ニコニコ生放送のスクリーンショットを撮って、引用サービスのtumblrに投稿します。",
+  "description": "ブラウザのスクリーンショットを撮って、引用サービスのtumblrにコピーできる画像を生成します。",
   "background": {
     "persistent": false,
     "page": "background.html"

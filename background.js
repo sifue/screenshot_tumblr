@@ -64,11 +64,7 @@ function takeScreenshot() {
 
 // Listen for a click on the camera icon.  On that click, take a screenshot.
 chrome.browserAction.onClicked.addListener(function(tab) {
-  if (tab.url.match(/nicovideo/)) {
     takeScreenshot();
-  } else {
-    alert('niconico以外のサービスのキャプチャには対応していません。');
-  }
 });
 
 
