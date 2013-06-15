@@ -11,8 +11,13 @@ var id = 100;
 
 function takeScreenshot() {
   chrome.tabs.captureVisibleTab(null, function(img) {
-    console.dir(img);
     var screenshotUrl = img;
+
+    // GLOBAL PARAM SET
+    chrome.tabs.executeScript(null, {code:"screenshotUrl = '" +  screenshotUrl + "';", runAt:'document_end'})
+    // EXECUTE
+    chrome.tabs.executeScript(null, {file:'capture.js', runAt:'document_end'})
+
     var viewTabUrl = chrome.extension.getURL('screenshot.html?id=' + id++)
 
     chrome.tabs.create({url: viewTabUrl}, function(tab) {

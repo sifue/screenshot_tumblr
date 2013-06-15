@@ -1,14 +1,14 @@
 {
-  "name": "Test Screenshot Extension",
-  "version": "1.1",
-  "description": "Demonstrate screenshot functionality in the chrome.tabs api. Note: only works for code.google.com",
+  "name": "ニコキャプ！",
+  "version": "1.0.0",
+  "description": "ニコニコ動画、ニコニコ生放送のスクリーンショットを撮って、引用サービスのtumblrに投稿します。",
   "background": {
     "persistent": false,
-    "scripts": ["background.js"]
+    "page": "background.html"
   },
   "browser_action": {
      "default_icon": "camera.png",
-     "default_title": "Take a screen shot!"
+     "default_title": "スクリーンショットをtumblrに投稿する"
   },
   "permissions": [
       "tabs",

@@ -3,5 +3,6 @@
 // found in the LICENSE file.
 
 function setScreenshotUrl(url) {
-  document.getElementById('target').src = url;
+    var imgtagString = '<img src="'+ url + '" />';
+    document.getElementById('imgtag').value = imgtagString;
 }
