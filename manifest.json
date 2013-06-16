@@ -1,6 +1,6 @@
 {
   "name": "スクショタンブラー！",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ブラウザのスクリーンショットを撮って、引用サービスのtumblrに投稿します。特に動画サイトなどの面白いシーンのスクリーンショットを取って引用する用です。",
   "background": {
     "persistent": false,

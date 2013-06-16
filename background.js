@@ -46,7 +46,6 @@ function takeScreenshot() {
         chrome.tabs.onUpdated.addListener(addSnapshotImageToTab);
     });
 
-
   });
 }
 
