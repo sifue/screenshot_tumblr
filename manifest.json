@@ -7,7 +7,7 @@
     "page": "background.html"
   },
   "browser_action": {
-     "default_icon": "camera.png",
+     "default_icon": "camera_tumblr.png",
      "default_title": "スクリーンショットをtumblrに投稿する"
   },
   "permissions": [
@@ -15,5 +15,10 @@
       "http://*/*",
       "https://*/*"
   ],
+  "icons" : {
+      "16": "camera_tumblr.png",
+      "48" : "camera_tumblr-48.png",
+      "128" : "camera_tumblr-128.png"
+  },
   "manifest_version": 2
 }
